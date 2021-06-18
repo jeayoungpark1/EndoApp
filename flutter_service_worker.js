@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "997a877caba5b24af45dde5a59d76e62",
+  "assets/AssetManifest.json": "6f7828c88b6c9ae5ff8dd9430ed6c862",
 "assets/assets/images/HHS-1.png": "448990ec46a35d27d7c3d078dc159e2c",
 "assets/assets/images/HHS-2.png": "3842d20043d5c50ab9ce584dfd073bc4",
 "assets/assets/images/HHS.png": "1477735ac2ca3810bba41f9dac13d04a",
@@ -13,6 +13,11 @@ const RESOURCES = {
 "assets/assets/images/InsulinOptions-A1.png": "6670ce23e23b56d2a536e4d061e2aeb5",
 "assets/assets/images/InsulinOptions-A2.png": "3f868430938a20711c5419fa4202e111",
 "assets/assets/images/InsulinOptions.png": "0a021352e85126d217a80ad42091cfa6",
+"assets/assets/images/Intermediate.png": "379276077b18967b0f8529f1803a5b44",
+"assets/assets/images/Long1.png": "6df1481008c9739434e635a8394b38d8",
+"assets/assets/images/Long2.png": "8d25204515829347fee01eb10f618d08",
+"assets/assets/images/Rapid.png": "000275a242620a2534ce5ca44cf13bea",
+"assets/assets/images/Regular.png": "ce8afbf18cf401fc449bda7ee023045c",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/NOTICES": "a8d1d130b9909728d724354dc06becc1",
@@ -21,9 +26,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "960a4df57c6f2ae26e6e0050e02b07e6",
-"/": "960a4df57c6f2ae26e6e0050e02b07e6",
-"main.dart.js": "f032fa2a1e12d879e461b15ecb3fe022",
+"index.html": "838f8b5c9cae7c8dd56551d1bd6915b8",
+"/": "838f8b5c9cae7c8dd56551d1bd6915b8",
+"main.dart.js": "da2ec98c3dd6dbc7f0955912962200e8",
 "manifest.json": "0e29d005fe5e6545a9df6c5653d6ce02",
 "version.json": "12e15db121c6fdd660fe06b2c9229d0c"
 };
