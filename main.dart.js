@@ -60065,7 +60065,7 @@ aw:function(){return new F.Iv(C.l)}}
 F.Iv.prototype={
 J:function(a,b){var s,r,q,p,o=this,n=null,m=E.r_(L.ak("Insulin Reference Chart",n,n,n,n,n,n)),l=L.ak("\nChoose an insulin generic/brand name for more info: ",n,n,n,n,n,n),k=o.d,j=M.a1(n,n,C.j,C.a3,n,n,n,2,n,n,n,n,n),i=t.ko,h=t.F
 k=T.cy(H.a([K.cY(16,C.a2,24,P.af(new H.ai(H.a([" ","Aspart (Novolog)","Aspart Protamine Mix (Novolog 70/30)","Aspart-aabc (Fiasp)","Degludec (Tresiba)","Detemir (Levemir)","Glargine U-100 (Lantus, Basaglar)","Glargine U-300 (Toujeo)","Glulisine (Apidra)","Lispro (Humalog, Admelog)","Lispro-aabc (Lyumjev)",u.t,u._,"Insulin Regular U-500",u.f,u.o],t.s),new F.a3f(),i),!0,i.j("b8.E")),new F.a3g(o),C.a4,j,k,t.N)],h),C.U,C.Q,C.a_)
-j=L.ak("\n"+o.x,n,n,n,n,n,n)
+j=L.ak("\n"+o.x+"\n",n,n,n,n,n,n)
 i=o.r===1?T.fY(T.AM(H.a([U.C9("assets/images/Rapid.png")],h),C.Q,C.dC),n,n):M.a1(n,n,C.j,n,n,n,n,n,n,n,n,n,n)
 s=o.r===2?T.fY(T.AM(H.a([U.C9("assets/images/Regular.png")],h),C.Q,C.dC),n,n):M.a1(n,n,C.j,n,n,n,n,n,n,n,n,n,n)
 r=o.r===3?T.fY(T.AM(H.a([U.C9("assets/images/Intermediate.png")],h),C.Q,C.dC),n,n):M.a1(n,n,C.j,n,n,n,n,n,n,n,n,n,n)
