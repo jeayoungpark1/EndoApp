@@ -60091,7 +60091,7 @@ l=g.aP
 k=M.L(f,f,C.f,C.a1,f,f,f,2,f,f,f,f,f)
 l=new T.a7(C.k,f,f,T.ci(H.a([m,K.cV(16,C.a0,24,P.ag(new H.al(H.a([" ","No","Yes"],a0),new F.a0H(),a1),!0,a2),new F.a0I(g),C.a3,k,l,a3)],a4),C.R,C.L,C.Y),f)
 m=l}else m=M.L(f,f,C.f,f,f,f,f,f,f,f,f,f,f)
-l=g.go&&g.k1?new T.a7(C.k,f,f,T.ci(H.a([L.a5("\nWill be NPO (for AMS, surgery, etc) or not tolerating food due to nausea: \n",f,f,f,f,f,f)],a4),C.R,C.L,C.cC),f):M.L(f,f,C.f,f,f,f,f,f,f,f,f,f,f)
+l=g.go&&g.k1?new T.a7(C.k,f,f,T.ci(H.a([L.a5("\nWill be NPO (for AMS/nausea, surgery, etc): \n",f,f,f,f,f,f)],a4),C.R,C.L,C.cC),f):M.L(f,f,C.f,f,f,f,f,f,f,f,f,f,f)
 if(g.go&&g.k1){k=g.aU
 j=M.L(f,f,C.f,C.a1,f,f,f,2,f,f,f,f,f)
 k=new T.a7(C.k,f,f,T.ci(H.a([K.cV(16,C.a0,24,P.ag(new H.al(H.a([" ","No","Yes"],a0),new F.a0J(),a1),!0,a2),new F.a0K(g),C.a3,j,k,a3)],a4),C.R,C.L,C.Y),f)}else k=M.L(f,f,C.f,f,f,f,f,f,f,f,f,f,f)
