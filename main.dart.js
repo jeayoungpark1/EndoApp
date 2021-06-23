@@ -60054,7 +60054,7 @@ $0:function(){},
 $S:0}
 F.lw.prototype={
 J:function(a,b){var s=null
-return M.vd(E.r4(L.a6("Home",s,s,s,s,s,s)),T.rm(new T.a7(C.k,s,s,L.a6("\nHello!\n\nWelcome to EndoApp! EndoApp is an application designed to help healthcare providers with diabetes management for the inpatient setting. Please check out our various calculators to guide patients from admission to discharge. EndoApp is frequently updated to reflect latest diabetes information as well as ADA and AAFP guidelines. \n\nEndoApp is developed for general practitioners, residents, and nurses. For complicated and challenging cases of diabetes management, please consult the Endocrinology department for expert advice. \n\nWe wish you a wonderful day for you and your patients. \n\n\n\n\nSincerely,\nJeayoung Park, M.D.\nUniversity of Maryland Midtown Campus\n",s,s,s,s,s,s),s),s,s),new F.is(s))}}
+return M.vd(E.r4(L.a6("Home",s,s,s,s,s,s)),T.rm(new T.a7(C.k,s,s,L.a6("\nHello!\n\nWelcome to EndoApp! EndoApp is an application designed to help healthcare providers with diabetes management for the inpatient setting. The application is frequently updated to reflect latest diabetes information as well as ADA and AAFP guidelines. \n\nEndoApp is developed for general practitioners, residents, and nurses. For complicated and challenging cases of diabetes management, please consult the Endocrinology department for expert advice. \n\nWe wish you a wonderful day for you and your patients. \n\n\n\n\nSincerely,\nJeayoung Park, M.D.\nUniversity of Maryland Midtown Campus\n",s,s,s,s,s,s),s),s,s),new F.is(s))}}
 F.kU.prototype={
 at:function(){return new F.GC(new N.b2(null,t.qS),C.m)}}
 F.GC.prototype={
