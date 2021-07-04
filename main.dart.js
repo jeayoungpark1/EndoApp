@@ -61319,7 +61319,7 @@ p.G=a2
 p.G=a2+l+p.L+" "+s+k
 p.y=i}}else{p.lo()
 if(p.r==="Yes"&&p.d!==" ")p.y="\nFor tube feeds:\n -Adjust basal insulin\n -For prandial insulin, switch to regular insulin(Novolin R, Humulin R) q6hr \n -If tube feeds are held for any reason, hold prandial insulin. \n -In general, a 4:6 ratio of basal and prandial regimen preferred.\n -Continue current dose of sliding scale insulin, but switch from short-acting insulin to regular insulin.\n -Get endocrinology consult.\n "
-else p.y="Adjustment per past 24-hr glucose level--"
+else p.y=""
 a2=p.k4
 if(a2==="L4"||p.r1==="L4"||p.r2==="L4"||p.rx==="L4"){a2=p.aT
 p.Y=C.c.O(a2*0.5)
