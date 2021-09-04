@@ -60875,10 +60875,10 @@ n=c}else n=b.x1=""
 if(b.fx&&a&&q&&o)b.x2="  --Fluid: "+b.r1+"\n\n  --Potassium: "+s+"\n\n  --pH: "+r+"\n\n  --Insulin: "+p+"\n\n  --Anion Gap: "+n+"\n"
 else b.x2="PLEASE ENTER ALL VALUES."
 if(b.y1==="Yes")if(b.k2&&b.aK){a=b.ac=C.c.az(b.a0*3)
-s=C.c.az(a*0.8)
-b.ak=s
-b.H=C.r.az(b.x*0.2/3)
-s=b.aQ=C.r.az(1800/(s*2))
+b.ak=C.c.az(a*0.8)
+s=b.x*0.2
+b.H=C.r.az(s/3)
+s=b.aQ=C.r.az(1800/s)
 if(s>=50)b.b2="Low Dose Sliding Scale"
 else if(s>=30&&!0)b.b2="Medium Dose Sliding Scale"
 else if(s>0&&s<30)b.b2="High Dose Sliding Scale"
