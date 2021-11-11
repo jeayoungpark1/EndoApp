@@ -60858,7 +60858,7 @@ else if(s>0&&s<30)d.b2="High Dose Sliding Scale"
 d.y2="\n\n\n> Can bridge to subcutaneous LONG ACTING insulin (Glargine), but only if the patient is mentating and TOLERATING PO.\n\n> Make sure to BRIDGE: Continue insulin drip for two more hours after giving the subcutaneous insulin. (i.e. if subcutaneous long-acting insulin is given at 7pm, maintain the insulin drip until 9pm.)"
 c="\n\n\n> Can bridge to subcutaneous LONG ACTING insulin (Glargine), but only if the patient is mentating and TOLERATING PO.\n\n> Make sure to BRIDGE: Continue insulin drip for two more hours after giving the subcutaneous insulin. (i.e. if subcutaneous long-acting insulin is given at 7pm, maintain the insulin drip until 9pm.)\n\n\n\n> DOSAGE: \n\n>>Total 24-hr fasting requirement is approximately "+c+" units. Start glargine at half of total daily dose, which is approximatley "+d.ak+" units daily."
 d.y2=c
-c=c+"\n\n>>For prandial insulin, can start Aspart "+d.H+" units for each meal if confirmed to be able to tolerate entire tray (weight based, 0.2u/kg). \n\n>>Start "+d.b2+" (based on insulin sensitivity factor)"
+c=c+"\n\n>>For prandial insulin, can start Aspart "+d.H+" units for each meal if confirmed to be able to tolerate entire tray. \n\n>>Start "+d.b2+" (based on insulin sensitivity factor)"
 d.y2=c
 d.y2=c+"\n\n\n\n\nAlternatively, If the patient has a known basal insulin regimen, can start home dose at 20-25% decreased rate (i.e. if home 20u glargine, start at 15u glargine.)"}else d.y2=""
 else d.y2="Patient is not yet read to bridge to subcutaneous insulin."},
@@ -61108,7 +61108,7 @@ $1:function(a){var s=null
 return K.cj(L.a2(a,s,s,s,s,s,s),a,t.N)},
 $S:2}
 F.a2Z.prototype={
-$0:function(){var s,r,q,p="T2DM (Non-insulin dependent)",o="T2DM with frequent hypoglycemia",n="Review glucose monitoring with patient: ",m="Make sure to use the UMMS Insulin Supply Orderset.",l=", one box (5 pens) will account for ",k="\n\nOrders:\n  -Order one box (or 15ml) for ",j="U-200 (including 70/30)",i=", One vial will account for ",h="\n\nOrders:\n  -Order ",g=" vial(s) for 30 day supply",f="Review glucose monitoring with patient:  Test blood sugar 3-4 times daily for IDDM. ",e="Review glucose monitoring with patient:  Test blood sugar 6-10 times daily for T1DM or frequent hypoglycemia. ",d=this.a
+$0:function(){var s,r,q,p="T2DM (Non-insulin dependent)",o="T2DM with frequent hypoglycemia",n="Review glucose monitoring with patient: ",m="Make sure to use the UMMS Insulin Supply Orderset.",l="\n\nOrders:\n  -Order one box (or 15ml) for ",k="U-200 (including 70/30)",j=" day supply. Order more as needed.",i=", One vial will account for ",h="\n\nOrders:\n  -Order ",g=" vial(s) for 30 day supply",f="Review glucose monitoring with patient:  Test blood sugar 3-4 times daily for IDDM. ",e="Review glucose monitoring with patient:  Test blood sugar 6-10 times daily for T1DM or frequent hypoglycemia. ",d=this.a
 if(d.aa==="No")d.H="Please consult transitional care or provide contact information for our diabetes clinic (443-682-6800)."
 else d.H=""
 s=d.x
@@ -61150,24 +61150,25 @@ else if(r==="TID"){r=s*3
 d.k4=r}else{d.k4=s
 r=s}q=d.dx
 if(q==="Pen"){s=d.fr
-if(s==="U-100 (default)"){d.r2=C.t.bU(1500/r)
-s=d.k3+="\nU-100 pens for short or long-acting insulins typically come in at 3mL sizes (300u total per pen)."
-s=s+"\nFor "+d.k1+" units "+d.go+l+d.r2+" days."
+if(s==="U-100 (default)"){s=C.t.bU(1500/r)
+d.r2=s
+r=d.k3+="\nU-100 pens for both short or long-acting insulins typically come in at 3mL sizes (300u total per pen)."
+s=r+"\nOne box (5 pens = 15ml = 1500 units) will account for "+s+" days of "+d.k1+" units "+d.go+" insulin U-100."
 d.k3=s
-s=d.k3=s+k+d.r2+" day supply."}else if(s===j){s=C.t.bU(3000/r)
+s=d.k3=s+l+d.r2+" day supply."}else if(s===k){s=C.t.bU(3000/r)
 d.r2=s
 d.rx=C.t.d4(30/s)
 s=d.k3+="\nU-200 pens (200u/ml) typically comes in at 3mL sizes (600u total per pen)."
-s=s+"\nFor "+d.k1+" units "+d.go+l+d.r2+" days."
+s=s+"\nOne box (5 pens = 15ml = 3000 units) will account for "+d.r2+" days of "+d.k1+" units "+d.go+" insulin U-200."
 d.k3=s
-s=s+k+d.r2+" day supply"
+s=s+l+d.r2+j
 d.k3=s}else if(s==="U-300 glargine"){s=C.t.bU(2250/r)
 d.r2=s
 d.rx=C.t.d4(30/s)
 s=d.k3+="\nU-300 pens (300u/ml) are typically recommended for higher doses. Typically comes in at 1.5mL sizes (450u total per pen)."
-s=s+"\nFor "+d.k1+" units "+d.go+l+d.r2+" days."
+s=s+"\nOne box (5 pens = 7.5ml = 2250 units) will account for "+d.r2+" days of "+d.k1+" units "+d.go+" insulin U-300."
 d.k3=s
-s=s+"\n\nOrders:\n  -Order one box (7.5ml) for "+d.r2+" day supply"
+s=s+"\n\nOrders:\n  -Order one box (7.5ml) for "+d.r2+j
 d.k3=s}else s=m
 r=d.go
 if(r==="BID")d.k3=s+"\n  -Order 1 box (90 needles) for 1.5 month supply. Thin (31G) and short (5mm) needles most well tolerated.\n"
@@ -61183,7 +61184,7 @@ s=d.k3=s+h+d.rx+g
 r=d.k1
 if(r<=30)d.k3=s+"\n  -Order 3/10 cc insulin syringes \n"
 else if(r<=50)d.k3=s+"\n  -Order 1/2 cc insulin syringes \n"
-else d.k3=s+"\n  -Order 1 cc insulin syringes\n"}else if(q===j){s=C.t.bU(2000/r)
+else d.k3=s+"\n  -Order 1 cc insulin syringes\n"}else if(q===k){s=C.t.bU(2000/r)
 d.r1=s
 d.rx=C.t.d4(30/s)
 s=d.k3+="\nU-200 vials (200u/ml) typically comes in at 10mL sizes (2000u total per vial)."
