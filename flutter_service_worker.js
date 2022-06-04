@@ -10,9 +10,13 @@ const RESOURCES = {
 "assets/assets/images/Rapid.png": "000275a242620a2534ce5ca44cf13bea",
 "assets/assets/images/Regular.png": "ce8afbf18cf401fc449bda7ee023045c",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "a8d1d130b9909728d724354dc06becc1",
+"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/NOTICES": "df036e20ff0047b33246f04209b949a4",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "CNAME": "34d41c68596035af50436d6f3720e8bd",
 "EndoApp-60.png": "af384452049cc6b47284d9f0b9649e10",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -20,12 +24,12 @@ const RESOURCES = {
 "icons/EndoApp-512.png": "a3d7a1322b2cbd517bdc4310e5ef8c7f",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "22610c1fd3aa750363abfb0ee9509995",
-"/": "22610c1fd3aa750363abfb0ee9509995",
-"main.dart.js": "61fdd5a5339df80adbd4f539b36ae87d",
+"index.html": "1047d58176b3083a6593fd51c4069d38",
+"/": "1047d58176b3083a6593fd51c4069d38",
+"main.dart.js": "04d2c959ede3b9ed687fe49c4a155c56",
 "manifest.json": "7e85ed7ff072c13f9d8550f910b74f1c",
 "privacy.html": "3b8c363e5e91f6cfc843a711976098d7",
-"version.json": "12e15db121c6fdd660fe06b2c9229d0c"
+"version.json": "15235b5108d6a877ef74fe3317a96bf7"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -43,7 +47,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
