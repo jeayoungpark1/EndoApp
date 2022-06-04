@@ -24,9 +24,9 @@ const RESOURCES = {
 "icons/EndoApp-512.png": "a3d7a1322b2cbd517bdc4310e5ef8c7f",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "963f5abcca247c72d3ae3ae4608c065c",
-"/": "963f5abcca247c72d3ae3ae4608c065c",
-"main.dart.js": "04d2c959ede3b9ed687fe49c4a155c56",
+"index.html": "00878588d835ffac97716ce4a4928b02",
+"/": "00878588d835ffac97716ce4a4928b02",
+"main.dart.js": "59acbc76dacf30887afb541512248ace",
 "manifest.json": "7e85ed7ff072c13f9d8550f910b74f1c",
 "privacy.html": "3b8c363e5e91f6cfc843a711976098d7",
 "version.json": "15235b5108d6a877ef74fe3317a96bf7"
