@@ -18761,7 +18761,7 @@ px:function px(a){this.a=a},
 ls:function ls(a){this.a=a},
 IL:function IL(a,b){var _=this
 _.fy=_.fx=_.db=_.cy=_.cx=_.ch=_.Q=_.z=_.y=_.r=_.e=_.d=0
-_.Z=_.y2=_.y1=_.x2=_.x1=_.ry=_.rx=_.r2=_.r1=_.k4=!1
+_.Z=_.y2=_.y1=_.x2=_.x1=_.ry=_.rx=_.r2=_.k4=!1
 _.G=0
 _.N=""
 _.ao="TID-AC"
@@ -62748,9 +62748,8 @@ g=A.C(a6,a6,B.f,B.O,a6,a6,a6,2,a6,a6,a6,a6,a6)
 h=new A.Q(B.j,a6,a6,A.c0(A.a([i,A.cs(16,B.N,24,!1,A.Y(new A.ab(A.a([" ","T2DM","T1DM",a8],b3),new A.a3Q(),b4),!0,b5),new A.a3w(a5),B.T,g,h,b6)],b7),B.E,B.z,B.I),a6)
 i=h}else i=A.C(a6,a6,B.f,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6)
 h=a5.k4&&a5.y1&&a5.cK===a8?new A.Q(B.j,a6,a6,A.a4("Please consult Endocrinology as patient can be highly insulin sensitive. Below regimen is for general guidelines, recommend dosing based on previous regimen if known. \n\n",a6,a6,a6,a6,a6,a6),a6):A.C(a6,a6,B.f,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6)
-if(a5.r1)if(a5.y1){g=a5.ai
+if(a5.y1){g=a5.ai
 g=g==="Oral Meds Only"||g===a7}else g=!1
-else g=!1
 if(g){g=A.a4("A1c around 9.0% or higher: ",a6,a6,a6,a6,a6,a6)
 f=a5.aI
 e=A.C(a6,a6,B.f,B.O,a6,a6,a6,2,a6,a6,a6,a6,a6)
@@ -63006,19 +63005,17 @@ r=s>=20
 if(r&&s<=400){g.dE=g.a2=""
 g.k4=!0
 q=g.cK
-if(q===" ")g.x2=g.x1=g.ry=g.rx=g.r2=g.r1=!1
+if(q===" ")g.x2=g.x1=g.ry=g.rx=g.r2=!1
 else{if(q==="T1DM"){p=g.t
 if(p==="BMI 18-25"||p==="BMI 25-30"){g.e=0.3
 g.bV="T1DM"}else if(p==="BMI >30"){g.e=0.4
-g.bV="T1DM with BMI >30"}g.r1=!1}else g.r1=!0
-p=g.rx=g.x2=g.x1=g.ry=g.r2=!0
+g.bV="T1DM with BMI >30"}}p=g.rx=g.x2=g.x1=g.ry=g.r2=!0
 o=g.ap==="Yes"
 if(o&&g.aP==="Yes")g.dE="\nPlease consult Endocrinology as patient will be on steroids and tube feeds. Below regimen is a general guideline.\n"
 else if(o)g.dE="\nPlease consult Endocrinology as patient will be on steroids. Below regimen is a general guideline.\n"
 else if(g.aP==="Yes")g.dE="\nPlease consult Endocrinology as patient will be on tube feeds. Below regimen is a general guideline.\n"
 if(q==="T3b-pancreatogenic"){g.e=0.2
-g.bV="pancreatic insufficiency"
-g.r1=!1}else{if(g.P==="Yes"){n=g.ai
+g.bV="pancreatic insufficiency"}else{if(g.P==="Yes"){n=g.ai
 n=n!=="Oral Meds Only"&&n!==m}else n=!1
 if(n){g.e=0.3
 g.bV="ongoing AKI or advanced CKD for T1DM or T2DM"}else{n=g.t
@@ -63030,7 +63027,7 @@ g.bV="insulin dependent diabetes with BMI 18-25"}else if(n==="BMI 25-30"){g.e=0.
 g.bV="insulin dependent diabetes with BMI 25-30"}else if(n==="BMI >30"){g.e=0.6
 g.bV="insulin dependent diabetes with BMI >30"}}else if(q!=="Oral Meds Only"?q===m:p)if(g.aI===">=9.0%")if(n==="BMI >30"){g.e=0.5
 g.bV="oral meds only, A1c>9.0, obesity with BMI >30"}else{g.e=0.4
-g.bV='diabetes on oral meds only (including "insulin-naive") without obesity \n (RABBIT 2 Trial: Umpierrez et al., Diabetes Care. 2007)\n'}else g.e=0.1}}}}}else g.x2=g.x1=g.ry=g.rx=g.r2=g.r1=g.k4=!1
+g.bV='diabetes on oral meds only (including "insulin-naive") without obesity \n (RABBIT 2 Trial: Umpierrez et al., Diabetes Care. 2007)\n'}else g.e=0.1}}}}}else g.x2=g.x1=g.ry=g.rx=g.r2=g.k4=!1
 if(r&&s<=400){if(g.q!==" ")if(g.t!==" ")if(g.P!==" ")if(g.ap!==" ")if(g.az!==" ")if(g.aP!==" "){if(g.aI===" "){r=g.ai
 r=r==="Oral Meds Only"||r===m}else r=!1
 r=!r}else r=!1
